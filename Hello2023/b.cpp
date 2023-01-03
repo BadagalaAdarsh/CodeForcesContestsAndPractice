@@ -11,11 +11,14 @@ void solve() {
 		cout << "NO" << endl;
 		return;
 	}
-	
 	else{
 		cout << "YES" << endl;
+		int number = rand() % 5000;
+		if (number == 0){
+			number += 10;
+		}
 		for(int i = 0; i < n/2; i++){
-			cout << 5 << " " << -5 << " ";
+			cout << number << " " << (-1*number) << " ";
 		}
 		cout << endl;
 	}
