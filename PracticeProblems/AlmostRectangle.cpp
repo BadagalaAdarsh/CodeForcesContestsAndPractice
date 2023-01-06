@@ -10,6 +10,7 @@ int main(){
 
         int n;
         cin >> n;
+        
         vector<string> str(n);
         vector<pair<int,int>> point;
 
